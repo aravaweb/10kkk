@@ -2,8 +2,6 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Social Science Role Play | Gallery</title>
-	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
@@ -19,42 +17,43 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/gallery.css">
+	<title>Role Play 2|Class 10K</title>
 </head>
-<body onload="show();" style="background: #A5667B">
+<body onload="show();" style="background: #121212">
     <div id = "myDiv">
-        <div>
+    	<div>
         <img id = "myImage" src = "images/intro.gif" class="intro">
         </div>
     </div>
     <div id="content" style="display: none;"> 
-	<a href="gallery.html"><img src="images/arava.png" class="logo"></a>
-<br>
- <div class="sklfunflex">
-    <img src="images/rose.png" class="rosebd">
-      <h1 class="welcometo">Social Science Role Play</h1>
-    <img src="images/rose.png" class="rosebd">
-</div>
+	<header>
+			<a href="sst-role-play.html"><img src="images/arava.png" class="logo"></a>
+		
+	<video-page>
+		<div class="container" >
+			<section id="yt-arava">
+				<iframe src="https://drive.google.com/file/d/1ySQlFWKeqoeUDIqmLr5t6AYolS5f5XL6/preview" class="iframe" allow="autoplay" allowfullscreen=""></iframe>
+			<h1 class="video-titles">Role Play 2 - Social Science</h1>
+			</section>
+		</div>
+		<section id="video-details">
+			<div class="profile">
+				<div>
+				<img src="images/icon/arava.jpg" class="arava-pic">
+				</div>
+				<div>
+				<h1 class="name">Arava</h1>
+				</div>
+				<br>
+				<p class="video-desc" style="color: red">Do not share this video with anyone. Hover on the video frame to watch the video.</p>
+			</div>
+		</section>
+	</video-page>
 
-<section>
-        <p class="dtofgly">19/01/2023</p>
-      <div id="thumbnail">
-        <a href="roleplay1.html">
-            <img src="images/thumb/roleplay (1).png" class="thumbnail">
-        </a>
-        <a href="roleplay2.html">
-             <img src="images/thumb/roleplay (2).png" class="thumbnail">
-        </a>  
-         
-      </div>  
-        
-    
-    </section>
-	
-</br></br></br>
+</body>
 <script type = "text/javascript">
     function show() {
         document.getElementById("myDiv").style.display="block";
@@ -66,5 +65,13 @@
         document.getElementById("content").style.display="block";
     }
 </script>
-</body>
+<script type="text/javascript">
+		$(document).mouseup(function (e) {
+			var container = $(".container");
+			if(!container.is(e.target) &&
+			container.has(e.target).length === 0) {
+				container.hide();
+			}
+		});
+	</script>
 </html>
